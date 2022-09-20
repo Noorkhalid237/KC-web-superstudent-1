@@ -1,0 +1,481 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+    position: absolute;
+    left: 185px;
+    top: 15px;
+}
+
+.header {
+    width: 1509px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.center a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    left: 515px;
+    color: white;
+    top: 30px;
+}
+
+#one {
+    left: 625px;
+} 
+
+#two {
+    left: 700px;
+}
+
+#three {
+    left: 780px;
+}
+
+#four {
+    left: 875px;
+}
+
+#five {
+    left: 945px;
+}
+
+.center a:hover {
+    text-decoration: underline ;
+}
+
+.right {
+    left: 1285px;
+    position: absolute;
+    top: 20px;
+}
+
+#first {
+    background-color: white;
+    color: black;
+    width: 65px;
+    height: 40px;
+    font-size: 14px;
+    border-color: white;
+    border-radius: 20px;
+    border: 5px;
+}
+
+#first:hover {
+    color:#8ea1e1;
+    transition: 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+#p1 {
+    position: absolute;
+    left: 500px;
+    font-size: 60px;
+    color: white;
+    bottom: 430px;
+    font-weight: bolder;
+    font-family: 'Lilita One', cursive;
+}
+
+#p2 {
+    position: absolute;
+    left: 360px;
+    color: white;
+    bottom: 370px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+} 
+
+.down1 {
+    position: absolute;
+    left: 470px;
+    bottom: 290px;
+}
+
+#sec {
+    background-color: white;
+    color: black;
+    width: 270px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-color: white;
+    border-radius: 30px;
+    border: 5px;
+}
+
+#sec:hover {
+    color:#8ea1e1;
+    transition: 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.down2 {
+    position: absolute;
+    left: 800px;
+    bottom: 290px;
+}
+
+#third {
+    background-color: black;
+    color: white;
+    width: 275px;
+    height: 55px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    border-color: white;
+    border-radius: 30px;
+    border: 5px;
+}
+
+#third:hover {
+    transition: 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.img1 {
+    position: absolute;
+    left: 170px;
+    top: 735px;
+    display: flex;
+}
+
+#PP {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    bottom: 200px;
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+}
+
+#PP1 {
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    top: 1000px;
+    left: 970px;
+    font-size: 20px;
+}
+
+.img2 {
+    position: absolute;
+    top: 1300px;
+    left: 650px;
+}
+
+#PP2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    right: 470px;
+    position: relative;
+    bottom: 410px;
+}
+
+#PP3 {
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 1500px;
+    left: 175px;
+}
+
+.background {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 600px;
+    margin-top: 600px;
+}
+
+.img3 {
+    position: absolute;
+    top: 1935px;
+    left: 160px;
+    display: flex;
+}
+
+#PP4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+#PP5 {
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    left: 990px;
+    top: 2150px;
+}
+
+#PP6 {
+    font-weight: bolder;
+    font-family: 'Lilita One', cursive;
+    position: absolute;
+    font-size: 50px;
+    left: 380px;
+    top: 2500px;
+}
+
+#PP7 {
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    left: 325px;
+    top: 2620px;
+}
+
+#IMG {
+    position: relative;
+    left: 220px;
+    top: 870px;
+    width: 1100px;
+}
+
+.BG {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 1200px;
+}
+
+#PP8 {
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    left: 550px;
+    margin-top: 1000px;
+}
+
+#btn {
+    background-color: #5865f2;
+    color: white;
+    width: 270px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #5865f2;
+    border-radius: 30px;
+    border: 5px;
+    left: 600px;
+    position: absolute;
+    margin-top: 1075px;
+}
+
+#btn:hover {
+    opacity: 0.9;
+    transition: 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #23272a;
+    width: 100%;
+    height: 650px;
+}
+
+#PP9 {
+    color: #5865f2;
+    font-family: 'Lilita One', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    left: 180px;
+    top: 3740px;
+}
+#img4 {
+    width: 200px;
+    position: absolute;
+    left: 170px;
+    top: 3890px;
+}
+
+#PP10 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: #5865f2;
+    position: absolute;
+    left: 580px;
+    top: 3775px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 730px;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    top: 150px;
+    position: relative;
+    right: 152px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#PP11 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: #5865f2;
+    position: absolute;
+    top: 3775px;
+    left: 780px;
+}
+
+.list2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 900px;
+}
+
+.list2 a {
+    color: white;
+    text-decoration: none;
+    top: 150px;
+    position: relative;
+    right: 119px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list2 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#PP12 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: #5865f2;
+    position: absolute;
+    top: 3775px;
+    left: 970px;
+}
+
+.list3 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 972px;
+}
+
+.list3 a {
+    color: white;
+    text-decoration: none;
+    top: 150px;
+    position: relative;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list3 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#PP13 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: #5865f2;
+    position: absolute;
+    top: 3775px;
+    left: 1170px;
+}
+
+.list4 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 1172px;
+}
+
+.list4 a {
+    color: white;
+    text-decoration: none;
+    top: 150px;
+    position: relative;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list4 a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#hr {
+    background-color: #5865f2;
+    width: 1300px;
+    height: 0.5px;
+    top: 4200px;
+    left: 100px;
+    position: absolute;
+    border-color: #5865f2;
+}
+
+#img5 {
+    width: 150px;
+    position: absolute;
+    left: 180px;
+    top: 4250px;
+}
+
+#btn2 {
+    background-color: #5865f2;
+    color: white;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    border-color: #5865f2;
+    border-radius: 30px;
+    border: 5px;
+    position: absolute;
+    left: 1200px;
+    top: 4250px;
+}
+
+#btn2:hover {
+    background-color: #7492f3;
+    transition: 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
